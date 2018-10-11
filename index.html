@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Project Ad</title>
+</head>
+<body>
+<div style="row">
+<!-- <h3>Specific flags about the recordings</h3> -->
+<br>
+<div class="inputStyle" style="float: left;">
+  <h4>Business being called</h4>
+  <label class="styleFont"><input type="checkbox"> Not in service</label><br>
+  <label class="styleFont"><input type="checkbox"> Reached voicemail</label><br>
+  <label class="styleFont"><input type="checkbox"> Voicemail not set up</label><br>
+  <label class="styleFont"><input type="checkbox"> Business Closed</label><br>
+  <label class="styleFont"><input type="checkbox"> Transfer to Different Entity</label><br>
+  <label class="styleFont"><input type="checkbox"> Caller did not speak with person</label><br>
+  <label class="styleFont"><input type="checkbox"> Unintended Business</label><br>
+</div>
+
+<br>
+<div class="inputStyle column" style="float: right;">
+  <h4>PII in audio</h4>
+  <label class="styleFont"><input type="checkbox"> Unredacted PII - Name </label><br>
+  <label class="styleFont"><input type="checkbox"> Unredacted PII - other </label><br>
+  <br>
+  <br>
+    <h4>Experience during call</h4>
+    <label class="styleFont"><input type="checkbox"> Misrepresentation </label><br>
+    <label class="styleFont"><input type="checkbox"> Scam / Phishing </label><br>
+    <label class="styleFont"><input type="checkbox"> Difficult Call Experience</label><br>
+    <label class="styleFont"><input type="checkbox"> Remote Computer Access</label><br>
+  </div>
+
+  <div class="inputStyle column" style="float: left;">
+      <h4>Business identification</h4>
+      <label class="styleFont"><input type="checkbox"> Business self-identified themselves in the call (without the caller asking) <input type="text"></label><br>
+      <br>
+      <br>
+      <label class="styleFont"><input type="checkbox"> Caller asked the business about their identity</label><br>
+    </div>
+
+    <div class="inputStyle column" style="float: right;">
+        <h4>Rate the call experience</h4>
+        <br>
+        <h4>What category best describes caller's intent?</h4>
+        <label class="styleFont"><input type="checkbox"> Early Customer Funnel</label><br>
+        <label class="styleFont"><input type="checkbox"> Sales and Customer Activation</label><br>
+        <label class="styleFont"><input type="checkbox"> Customer Service</label><br>
+        <label class="styleFont"><input type="checkbox"> Other <input type="text"> </label><br>
+        <label class="styleFont"><input type="checkbox"> Can't tell</label><br>
+      </div>
+
+      <div class="inputStyle column" style="float: left;">
+          <h4>What category best describes if the interaction met the caller's intent?</h4>
+          <label class="styleFont"><input type="checkbox"> Fully Meets</label><br>
+          <label class="styleFont"><input type="checkbox"> Somewhat Meets</label><br>
+          <label class="styleFont"><input type="checkbox"> Tries to Meet</label><br>
+          <label class="styleFont"><input type="checkbox"> Slightly Meets </label><br>
+          <label class="styleFont"><input type="checkbox"> Unable to Meet</label><br>
+        </div>
+
+        <div class="inputStyle column" style="float: right;">
+            <h4>Do you think the user had a positive or negative call experience?</h4>
+            <label class="styleFont"><input type="checkbox"> Positive</label><br>
+            <label class="styleFont"><input type="checkbox"> Negative </label><br>
+            <label class="styleFont"><input type="checkbox"> Neutral</label><br>
+          </div>
+
+          <div class="inputStyle column" style="float: left;">
+              <h4>Do you have any concerns that the caller might be being taken advantage of?</h4>
+              <label class="styleFont"><input type="checkbox"> No</label><br>
+              <label class="styleFont"><input type="checkbox"> Yes</label><br>
+
+            </div>
+
+            <div class="inputStyle column" style="float: right;">
+              <h4>Did the business offer goods or services to the caller, or try to initiate a transaction?</h4>
+              <label class="styleFont"><input type="checkbox"> Yes <br>
+              <label class="styleFont"><input type="checkbox"> No</label><br>
+            </div>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
